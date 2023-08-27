@@ -39,8 +39,6 @@ runners:
       executor = "kubernetes"
       [runners.kubernetes]
         image = "gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine"
-
-  secret: gitlab-runner-secret
 resourses:
   limits:
     memory: 512Mi
